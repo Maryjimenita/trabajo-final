@@ -1,0 +1,39 @@
+body{ 
+    font-family:'Sofia Sans', sans-serif;
+
+}
+
+#header{
+    background-color: rgb(245, 176, 199);
+    color: white;
+    height: 15rem;
+    
+    
+}
+.nombre{
+    padding-left: 0rem;
+    padding-top: 3rem;
+    margin-top: 3rem;
+}
+
+#foto{
+    
+    padding: 1rem;
+    margin-top: 0rem;
+    border-radius: 85px;
+}
+
+.btn{
+    background-color: rgb(204, 105, 243);
+    border-radius: 30px;
+    border: none;
+    height: fit-content;
+    width: 12rem;
+    color: aliceblue;
+    padding: 0.8rem;
+    font-size: large;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
