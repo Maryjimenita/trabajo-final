@@ -1,5 +1,6 @@
 body{ 
     font-family:'Sofia Sans', sans-serif;
+    
 
 }
 
@@ -31,7 +32,7 @@ button{
     width: 12rem;
     color: aliceblue;
     padding: 0.8rem;
-    font-size: large;
+    font-size: larger;
     margin-top: 1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -39,4 +40,26 @@ button{
 }
 h4{
     margin-top: 1rem;
+}
+
+#head{
+    font-size: 1.5rem;
+}
+#progres{
+    background-color: rgb(196, 191, 191);
+    border-radius: 50px;
+    height: 8px;
+}
+#datos{
+    margin-top: 5rem;
+    font-size: small;
+    font-weight: 100;
+    border: 1px solid rgb(204, 105, 243);
+    border-radius: 15px;
+    width: 40rem;
+}
+#ul{
+    font-size: small;
+    font-weight: bolder;
+    list-style: none;
 }
