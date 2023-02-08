@@ -1,27 +1,32 @@
 body{ 
     font-family:'Sofia Sans', sans-serif;
     background-color: rgb(211, 205, 205);
-
 }
 
 #header{
     background-color: rgb(245, 176, 199);
     color: white;
     height: 15rem;
-    
-    
+}
+#draw{
+    margin-right: 5rem;
+    width: 6rem;
+    height: 6rem;
+    fill-opacity: 80%;
+    position: end;
 }
 .nombre{
     padding-left: 0rem;
     padding-top: 3rem;
     margin-top: 3rem;
+    margin-left: 1rem;
 }
 
 #foto{
-    
     padding: 1rem;
-    margin-top: 0rem;
-    border-radius: 85px;
+    margin-top: 1rem;
+    border-radius: 100px;
+    
 }
 
 button{
@@ -45,10 +50,14 @@ h4{
 #head{
     font-size: 1.5rem;
 }
-#progres{
-    background-color: rgb(196, 191, 191);
-    border-radius: 50px;
-    height: 8px;
+.progress{
+    background-color:rgb(209, 204, 204);
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 0.8rem;
+}
+.progress-bar{
+    background-color: rgb(189, 149, 204);
 }
 footer{
     margin-top: 4rem;
@@ -56,4 +65,13 @@ footer{
 }
 ul{
     list-style: none;
+}
+#contacto{
+    color: rgb(65, 63, 63);
+}
+#mybutton{
+    border: 4px solid rgb(204, 105, 243);
+    background-color: rgb(245, 176, 199) ;
+    color:white ;
+    font-size: 1.5rem;
 }
