@@ -1,0 +1,88 @@
+body{ 
+    font-family:'Sofia Sans', sans-serif;
+    background-color: antiquewhite;
+}
+
+#header{
+    color: rgb(68, 67, 67);
+    height: 15rem;
+    background-image: url('fondoheader.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x:center;
+    
+    
+}
+#draw{
+    margin-right: 5rem;
+    width: 6rem;
+    height: 6rem;
+    fill-opacity: 80%;
+    position: end;
+}
+.nombre{
+    padding-left: 0rem;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+#foto{
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 100px;
+    
+}
+
+button{
+    background-color: rgb(204, 105, 243);
+    border-radius: 5px;
+    border: none;
+    height: fit-content;
+    width: 12rem;
+    color: aliceblue;
+    padding: 0.8rem;
+    font-size: larger;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+h4{
+    margin-top: 1rem;
+}
+
+#head{
+    font-size: 1.5rem;
+}
+
+.progress{
+    background-color:rgb(209, 204, 204);
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 0.8rem;
+}
+.progress-bar{
+    background-color: rgb(189, 149, 204);
+}
+footer{
+    margin-top: 4rem;
+    padding-left: 1rem;
+}
+ul{
+    list-style: none;
+}
+#contacto{
+    color: rgb(65, 63, 63);
+}
+#mybutton{
+    background-color: rgb(245, 176, 199) ;
+    color:rgb(204, 105, 243) ;
+    font-size: 1rem;
+    border-radius: 5px;
+    height: fit-content;
+    width: 12rem;
+    padding: 1rem;
+    font-size: larger;
+}
